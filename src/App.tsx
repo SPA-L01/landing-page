@@ -37,9 +37,6 @@ export default function App() {
             <a href="#" className="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors">Developers</a>
             <a href="#" className="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors">Open Source</a>
           </nav>
-          <button className="text-primary font-bold font-headline tracking-tight hover:text-white transition-colors duration-300">
-            Sign In
-          </button>
         </div>
 
         <button 
@@ -61,8 +58,6 @@ export default function App() {
             <a href="#" onClick={() => setIsMenuOpen(false)}>Solutions</a>
             <a href="#" onClick={() => setIsMenuOpen(false)}>Developers</a>
             <a href="#" onClick={() => setIsMenuOpen(false)}>Open Source</a>
-            <hr className="border-outline-variant/20" />
-            <button className="text-left text-primary font-bold font-headline">Sign In</button>
           </nav>
         </motion.div>
       )}
@@ -130,7 +125,7 @@ export default function App() {
                 <img 
                   alt="Home Screen" 
                   className="rounded-2xl shadow-2xl border border-white/10 ring-1 ring-white/5" 
-                  src="https://lh3.googleusercontent.com/aida/ADBb0ug-kbK4d73USJAtT4w0jd-2-1P4Iu3Zey-COkvbRTWZubekaHY1cbVFv3uNZhSImQfhdw-S72xjb-29QmgRYw5xOJWMuHB3QKleqYX9LnHbA4orN1my1JZd1JA6KcxUVExe-65z6EouV3KrR0-B6uXF12qLtOCLq8obSyvSnEghNjVmo3RBNHnIaETgT9aaRcHJwaHWehyjiRosmfE5eBKYKWAAEZOzvGII5yn-G1lKlBBbJwN630Nt50Z8zIVmuMWYIUelpFv0WUE?w=1200"
+                  src="/landing-page/images/hero-home.jpg"
                   referrerPolicy="no-referrer"
                 />
               </div>
@@ -139,7 +134,7 @@ export default function App() {
                 <img 
                   alt="Map Screen" 
                   className="rounded-3xl border border-white/20 ring-1 ring-white/10" 
-                  src="https://lh3.googleusercontent.com/aida/ADBb0ujvWiaLOBsgc8os18gOha9cxAodGuLw8Lm8X6UQ-PZgRZgLupwkFqmm3b6szu3IJkhsqzZKSqkx5aHG7GOdRVQfvFp_NAecluIJIDFyZLRv-CgvlsyTexlj0mKkV9SemxOwRA2ZA1rWKo_cq8kIzxqJUWTWI6Ds7a4a1xGwbYldhsab-NMMWITHsrF0Yi2bGsNR1tOzib306gh4dNyfqf8AXI3nnOKOFQMbV2EIjcmbScSSB1kyYfhijjf2E8xP_Cpq71nI0kS_peo?w=1200"
+                  src="/landing-page/images/hero-map.jpg"
                   referrerPolicy="no-referrer"
                 />
               </div>
@@ -148,7 +143,7 @@ export default function App() {
                 <img 
                   alt="Parking Lot Screen" 
                   className="rounded-2xl shadow-2xl border border-white/10 ring-1 ring-white/5" 
-                  src="https://lh3.googleusercontent.com/aida/ADBb0ugWElb2ec-8e8n9oDpOSg0XhJboTe1SA3RhQn5p5w6rwNX_eLZXoYcINGDCgMzomOct7XuJE51elFNIxIuuqowNpcZEFkS1KgHffWFItyMamYoGxgCNhW5u8WZxjKYEiPEpBYiNZcNniITpAvwzSA2ULBbYDXx6B3V7rWNeSLShOMVdkVSWnQTgEctT7XH_rIh-B9k1lp0UJ3ggLCqfy_X2PP9cMhQmrc5guJrneAUgQhRqGw5arAu91xK_F4Gc1ajEGbcOyTzXGAo?w=1200"
+                  src="/landing-page/images/hero-parking.jpg"
                   referrerPolicy="no-referrer"
                 />
               </div>
@@ -193,7 +188,7 @@ export default function App() {
                   <img 
                     alt="Smart Map Navigation Screenshot" 
                     className="w-full object-cover object-top rounded-t-2xl shadow-2xl border border-outline-variant/20" 
-                    src="https://lh3.googleusercontent.com/aida/ADBb0ujvWiaLOBsgc8os18gOha9cxAodGuLw8Lm8X6UQ-PZgRZgLupwkFqmm3b6szu3IJkhsqzZKSqkx5aHG7GOdRVQfvFp_NAecluIJIDFyZLRv-CgvlsyTexlj0mKkV9SemxOwRA2ZA1rWKo_cq8kIzxqJUWTWI6Ds7a4a1xGwbYldhsab-NMMWITHsrF0Yi2bGsNR1tOzib306gh4dNyfqf8AXI3nnOKOFQMbV2EIjcmbScSSB1kyYfhijjf2E8xP_Cpq71nI0kS_peo?w=1200"
+                    src="/landing-page/images/hero-map.jpg"
                     referrerPolicy="no-referrer"
                   />
                 </div>
@@ -215,7 +210,7 @@ export default function App() {
                   <img 
                     alt="Real-time Availability Screenshot" 
                     className="w-full object-cover object-top rounded-t-2xl shadow-2xl border border-outline-variant/20" 
-                    src="https://lh3.googleusercontent.com/aida/ADBb0ug-kbK4d73USJAtT4w0jd-2-1P4Iu3Zey-COkvbRTWZubekaHY1cbVFv3uNZhSImQfhdw-S72xjb-29QmgRYw5xOJWMuHB3QKleqYX9LnHbA4orN1my1JZd1JA6KcxUVExe-65z6EouV3KrR0-B6uXF12qLtOCLq8obSyvSnEghNjVmo3RBNHnIaETgT9aaRcHJwaHWehyjiRosmfE5eBKYKWAAEZOzvGII5yn-G1lKlBBbJwN630Nt50Z8zIVmuMWYIUelpFv0WUE?w=1200"
+                    src="/landing-page/images/hero-home.jpg"
                     referrerPolicy="no-referrer"
                   />
                 </div>
@@ -237,7 +232,7 @@ export default function App() {
                   <img 
                     alt="Instant Slot Booking Screenshot" 
                     className="w-full object-cover object-top rounded-t-2xl shadow-2xl border border-outline-variant/20" 
-                    src="https://lh3.googleusercontent.com/aida/ADBb0ugWElb2ec-8e8n9oDpOSg0XhJboTe1SA3RhQn5p5w6rwNX_eLZXoYcINGDCgMzomOct7XuJE51elFNIxIuuqowNpcZEFkS1KgHffWFItyMamYoGxgCNhW5u8WZxjKYEiPEpBYiNZcNniITpAvwzSA2ULBbYDXx6B3V7rWNeSLShOMVdkVSWnQTgEctT7XH_rIh-B9k1lp0UJ3ggLCqfy_X2PP9cMhQmrc5guJrneAUgQhRqGw5arAu91xK_F4Gc1ajEGbcOyTzXGAo?w=1200"
+                    src="/landing-page/images/hero-parking.jpg"
                     referrerPolicy="no-referrer"
                   />
                 </div>
